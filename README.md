@@ -23,7 +23,7 @@ This project solves the problem by using CNN+RNN. Specifically, resnet50 and LST
 该项目采用方法为CNN+RNN的思路。特别的，选取了Resnet50和LSTM的网络架构。先用resnet50提取每一张图片的特征图并处理成一维向量。之后将同一sequence的特征向量打包进一张tensor并将tensor传入LSTM网络中进行训练。LSTM网络后还加了一些Linear层和Softmax以便直接进行分类。
 
 ## 文件：
-共四个文件， CNN.py，LSTM.py，data.txt,status.txt <br>
+共四个文件， CNN.py，LSTM.py，data.txt, status.txt <br>
 CNN.py用以提取特征向量，输出为1*32720的一维向量，保存为pkl文件形式
 RNN.py用以训练模型，需先读取CNN输出的pkl文件
 data.txt:数据集下载地址
