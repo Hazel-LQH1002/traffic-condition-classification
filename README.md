@@ -24,10 +24,10 @@ This project solves the problem by using CNN+RNN. Specifically, resnet50 and LST
 
 ## 文件：
 共四个文件， CNN.py，LSTM.py，data.txt, status.txt <br>
-CNN.py用以提取特征向量，输出为1*32720的一维向量，保存为pkl文件形式
-RNN.py用以训练模型，需先读取CNN输出的pkl文件
-data.txt:数据集下载地址
-status.txt:标签文件
+CNN.py用以提取特征向量，输出为1*32720的一维向量，保存为pkl文件形式<br>
+RNN.py用以训练模型，需先读取CNN输出的pkl文件<br>
+data.txt:数据集下载地址<br>
+status.txt:标签文件<br>
 
 
 
