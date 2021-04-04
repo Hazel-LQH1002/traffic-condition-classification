@@ -1,0 +1,2 @@
+https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531809/round1/amap_traffic_train_0712.zip # 训练集图片
+https://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531809/round1/amap_traffic_annotations_train.json # 训练集标注
