@@ -16,7 +16,7 @@ There are 1500 sequences of vehicle video images in total for training. In each 
 ## 数据描述：
 训练集共1500个序列。每个序列包含3到5张车载视频图片。同一序列的图片是在同一段时间内，同一车辆，同一视角拍摄完成。每个序列都带有标签。标签有三种：“0” “1” “2”，分别代表畅通,缓行和拥堵。
 
-## Main flow of solving the problem:
+## Main idea of solving the problem:
 This project solves the problem by using CNN+RNN. Specifically, resnet50 and LSTM are used. First, use resnet50 to extract the feature vector of every image and flatten them into one dimension vector. Notice that, to simplify the training, I change the number of images of every sequence into four.(If there are 5 images, delete the last one;if three, copy the last one). After obtaining the feature vectors, pack them into tensors. One sequence (four feature vectors) is packed into one tensor. Then,send these tensors into LSTM and add Linear Layer and softmax to do the classification.
 
 ## 整体思路：
